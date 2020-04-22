@@ -1,7 +1,7 @@
 # Steps
 
 # Merge Sort Function
-def find_the_minimum(array)
+def find_min_value(array)
   minimum = merge_sort(array)[0]
 end
 
