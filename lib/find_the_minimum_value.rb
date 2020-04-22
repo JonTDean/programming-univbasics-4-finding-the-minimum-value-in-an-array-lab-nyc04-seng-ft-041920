@@ -39,5 +39,3 @@ def merge(left_Half, right_Half)
     [right_Half[0]] + merge(left_Half, right_Half[1..right_Half.length])
   end
 end
-
-p find_min([14, 7, 3, 12])
